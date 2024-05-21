@@ -32,14 +32,16 @@ var total = bill + tip;
 console.log("The Total is :" + total)
 
 // Awesome Message
-firstName;
-interest;
-hobby;
-let awesomeMessage;
+let firstName = "Julia";
+let interest = "cats";
+let hobby = "play video games";
+let awesomeMessage = "Hi, my name is " + firstName + ". I love " + interest + ". In my spare time, I like to " + hobby;
+console.log(awesomeMessage);
 
-//Mad Libs
+////Mad Libs
 var adjective1 = "amazing";
 var adjective2 = "fun";
 var adjective3 = "entertaining";
-var
-    console.log("The Total is :" + madLib)
+var madLib = "The Intro to JavaScript course is" + adjective1 + "James and Julia are so"
+adjective2 + "cannot wait to work through the rest of this " + adjective3 + "content!"
+console.log("The Total is :" + madLib)
